@@ -25,7 +25,7 @@
                     <li><a href="">Fotos</a></li>
                     <li><a href="">Conta</a></li>
                 </ul>
-                <p>beatriz</p>
+                
         
             </nav>
             <a href=""><button>Conta</button></a>
