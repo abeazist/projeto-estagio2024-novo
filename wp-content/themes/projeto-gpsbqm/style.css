@@ -8,5 +8,402 @@ Version: 1.0
 Tags: two-columns,left-sidebar,custom-header,custom-menu,custom-logo,blog
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --cor1: #1E1E1E;
+    --cor2: #000000;
+    --cor3: #FBFFFD;
+    --cor4: #FFFFFF;
+    --cor5: #049368;
+    --cor6: #2241CC;
+    --cor7: #252A36;
+    --cor8: #DAD5D5;
+    --cor9: #10A974;
+    --cor10: #07263E;
+    --cor11: #32A9FF;
+    --cor12: #EFEFEF;
+    --cor13: #021471;
+}
+
+
+
+.source-sans-3{
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: var(--cor10);
+    color: var(--cor4);
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.logotipo {
+    color: var(--cor4);
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.menu li a {
+    font-size: 16px;
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: var(--cor11);
+}
+
+.buttonheader {
+    padding: 10px 20px;
+    background-color: var(--cor9);
+    color: var(--cor3);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.buttonheader:hover {
+    background-color: var(--cor5);
+}
+
+
+.fundo {
+    background-image: url(/img/6081254.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+section {
+    position: relative;
+    text-align: center;
+    padding: 100px 15px 50px;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.titulo {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+}
+
+#textinho-introducao {
+    color: var(--cor12);
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+
+#vermais {
+    padding: 15px 50px;
+    background-color: var(--cor6);
+    color: var(--cor3);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+#vermais:hover {
+    background-color: #2e4dda;
+}
+
+#projetos{
+    background-color:#07263E; 
+    
+}
+.titulo-projeto{
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    
+}
+
+.img-projeto{
+    width: 200px;
+    border-radius: 100%;
+    transition: transform 0.5s;
+    transform: translateX(0) scale(1);
+}
+
+
+.imagens-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.imagens-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.img-projeto:hover{
+    transition: transform 0.5s;
+    transform: translateX(0) scale(1.3);
+}
+
+
+
+
+
+body{
+    background-color: var(--cor2); 
+    
+}
+
+h3{
+    font-size: small;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+h2,h3{
+    justify-content: center;
+    align-items: center;
+}
+#equipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh ;
+}
+
+.box-pessoas{
+    
+    background-color: var(--cor3);
+    width: 300px;
+    height: 450px;
+    
+    
+}
+
+
+.container-equipe {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+
+
+
+
+
+.secao-fotos{
+    background-image: url(/img/fotos/img-fundo-fotos.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.syne {
+    font-family: "Syne", serif;
+    font-optical-sizing: auto;
+}
+
+.area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 30px; 
+}
+
+.h1-fotos{
+    padding-top: 30px;
+    color: var(--cor3);
+    font-size: 4rem; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Syne", serif;
+}
+
+.topico {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.p-fotos {
+    background-color: var(--cor5);
+    color: var(--cor3);
+    font-family: "Syne", serif;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: medium;
+    width: 200px;
+    text-align: center;
+}
+
+.imgfooter{
+    width: 70px; 
+    height: 60px;
+  }
+
+.img-equipe{
+    transition: transform 0.5s;
+    transform: translateX(0) scale(0.9);
+}
+
+.img-equipe:hover{
+    transition: transform 0.5s;
+    transform: translateX(0) scale(1.0);
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 40px 20px;
+    height: 120px;
+    background-color: #252A36; 
+    color: white;
+    font-family: 'Source Sans 3';
+    
+  }
+  
+ 
+  .footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+ 
+  .footer-right {
+    display: flex;
+    gap: 15px; 
+  }
+  
+ 
+  
+
+
+@media (max-width: 800px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .menu ul {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        margin-right: 2px;
+    }
+
+    .menu li a {
+        font-size: 14px;
+    }
+
+    .buttonheader {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .logotipo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    section {
+        padding-top: 60px;
+    }
+
+    .titulo {
+        font-size: 2em;
+    }
+
+    #textinho-introducao {
+        font-size: 1em;
+    }
+
+    #vermais {
+        padding: 10px 30px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1.5em;
+    }
+
+    #textinho-introducao {
+        font-size: 0.9em;
+    }
+
+    #vermais {
+        padding: 8px 20px;
+        font-size: 0.9em;
+    }
+}
+
+
 */
 
