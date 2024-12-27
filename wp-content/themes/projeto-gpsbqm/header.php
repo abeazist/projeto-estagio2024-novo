@@ -57,24 +57,24 @@
             ><img
               class="img-projeto"
               id="um"
-              src="/img/acidocinamico.jpg"
+              src="<?php echo get_template_directory_uri(); ?>wp-content/themes/projeto-qpsbqm/imagens/acidocinamico.jpg
+" 
               alt=""
           /></a>
           <a href=""
-            ><img class="img-projeto" id="dois" src="/img/3.png" alt=""
+            ><img class="img-projeto" id="dois" src="<?php echo get_template_directory_uri(); ?>/img/3.png" alt=""
           /></a>
         </div>
         <div class="imagens-2">
           <a href=""
-            ><img class="img-projeto" id="tres" src="/img/HIV.png" alt=""
+            ><img class="img-projeto" id="tres" src="<?php echo get_template_directory_uri(); ?>/img/HIV.png" alt=""
           /></a>
-          <a href=""
-            ><img
+          <a href="">
+            <img
               class="img-projeto"
               id="quatro"
-              src="/img/verdeHomem.jpeg"
-              alt=""
-          /></a>
+              src="<?php echo get_template_directory_uri(); ?>/img/verdeHomem.jpeg" alt=""/>
+          </a>
         </div>
       </div>
     </section>
@@ -84,21 +84,21 @@
     <section id="equipe">
       <div class="box-pessoas">
         <br>
-        <img style="border-radius: 100%;" height="200px" width="200px" src="/img/img-equipe/pessoa-2.jpg" alt="">
+        <img style="border-radius: 100%;" height="200px" width="200px" src="<?php echo get_template_directory_uri(); ?>/img/pessoa-2.jpg" alt="">
         <h2>Beatriz</h2>
         <p>Estudante do Técnico Integrado em Informática para Internet</p>
       </div>
       <div>
       <div class="box-pessoas">
         <br>
-        <img style="border-radius: 100%;" height="200px" width="200px" src="/img/img-equipe/pessoa-1.jpg" alt="">
+        <img style="border-radius: 100%;" height="200px" width="200px" src=" <?php echo get_template_directory_uri(); ?>/img/pessoa-1.jpg" alt="">
         <h2>Beatriz</h2>
         <p>Estudante do Técnico Integrado em Informática para Internet</p>
       </div>
       <div>
       <div class="box-pessoas">
         <br>
-        <img style="border-radius: 100%;" height="200px" width="200px" src="/img/img-equipe/pessoa-3.jpg" alt="">
+        <img style="border-radius: 100%;" height="200px" width="200px" src=" <?php echo get_template_directory_uri(); ?>/img/pessoa-3.jpg" alt="">
         <h2>Beatriz</h2>
         <p>Estudante do Técnico Integrado em Informática para Internet</p>
       </div>
@@ -114,7 +114,7 @@
         <div class="area">
           <div class="topico">
             <a href=""
-              ><img width="400px" src="/img/fotos/evento-científico.jpg" alt=""
+              ><img width="400px" src="<?php echo get_template_directory_uri(); ?>/img/evento-científico.jpg" alt=""
             /></a>
             <p class="p-fotos">Empreendeweek 2024</p>
           </div>
@@ -122,7 +122,7 @@
             <a href=""
               ><img
                 width="400px"
-                src="/img/fotos/close-up-scientist-holding-petri-dish.jpg"
+                src="<?php echo get_template_directory_uri(); ?> /img/close-up-scientist-holding-petri-dish.jpg"
                 alt=""
             /></a>
   
@@ -132,7 +132,7 @@
             <a href=""
               ><img
                 width="400px"
-                src="/img/fotos/woman-working-laborator (1).jpg"
+                src="<?php echo get_template_directory_uri(); ?> /img/woman-working-laborator (1).jpg"
                 alt=""
             /></a>
             <p class="p-fotos">Laboratório</p>
