@@ -84,14 +84,14 @@
     <section id="equipe">
       <div class="box-pessoas">
         <br>
-        <img style="border-radius: 100%;" height="200px" width="200px" src="/img/img-equipe/pessoa-3.jpg" alt="">
+        <img style="border-radius: 100%;" height="200px" width="200px" src="/img/img-equipe/pessoa-2.jpg" alt="">
         <h2>Beatriz</h2>
         <p>Estudante do Técnico Integrado em Informática para Internet</p>
       </div>
       <div>
       <div class="box-pessoas">
         <br>
-        <img style="border-radius: 100%;" height="200px" width="200px" src="/img/img-equipe/pessoa-3.jpg" alt="">
+        <img style="border-radius: 100%;" height="200px" width="200px" src="/img/img-equipe/pessoa-1.jpg" alt="">
         <h2>Beatriz</h2>
         <p>Estudante do Técnico Integrado em Informática para Internet</p>
       </div>

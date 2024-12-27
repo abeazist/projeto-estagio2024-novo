@@ -7,7 +7,7 @@
       </div>
       <div class="footer-right">
         <a href="*" target="_blank">
-          <img class="imgfooter" src="/img/youtube.svg" alt="YouTube Logo" class="icon">
+          <img class="imgfooter" src="/svg/youtube.svg" alt="YouTube Logo" class="icon">
         </a>
         <a href="*" target="_blank">
           <img class="imgfooter" src="/img/instagram.svg" alt="Instagram Logo" class="icon">
