@@ -14,6 +14,7 @@
 </head>
 <body <?php body_class(); ?>>
     <header>
+      <div class="menu-area">
       <span class="logotipo">
           <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF">
             <path d="M172-120q-41.78 0-59.39-39T124-230l248-280v-270h-52q-12.75 0-21.37-8.68-8.63-8.67-8.63-21.5 0-12.82 8.63-21.32 8.62-8.5 21.37-8.5h320q12.75 0 21.38 8.68 8.62 8.67 8.62 21.5 0 12.82-8.62 21.32-8.63 8.5-21.38 8.5h-52v270l248 280q29 32 11.39 71T788-120H172Zm-12-60h640L528-488v-292h-96v292L160-180Zm318-300Z"/>
@@ -29,6 +30,102 @@
           </ul>
         </nav>
           <a href="../conta/conta.html"><button class="buttonheader">Conta</button></a>
+      </div>
+
+
+      <div class="fundo">
+        <section>
+          <h1 class="titulo">
+            Grupo de Pesquisa de Substâncias Bioativas<br />
+            e Química de Materiais
+          </h1>
+          <br/>
+          <strong>
+            <p id="textinho-introducao">
+              O Grupo de Pesquisa em Substâncias Bioativas e<br />
+              Química dos Materiais (GPSBQM) conta com a participação<br />
+              de estudantes e docentes da UTFPR de<br />
+              Campo Mourão, acompanhe em seus<br />
+              projetos em seus estudos ao longo do cruso.
+            </p>
+            <br />
+          </strong>
+          <button id="vermais">Ver mais!</button>
+        </section>
+      </div>
+
+      <section id="projetos">
+      <h1 class="titulo-projeto">Projetos</h1>
+      <br />
+      <div class="container">
+        <div class="textos">
+          <p id="textinho-introducao">
+            Esses são alguns dos projetos trabalhados no laboratório da UTFPR de
+            Campo Mourão, aqui temos projetos que foram apresentados em grandes
+            eventos de pesquisa, tecnologia, inovação como o, SICITE, SEI,
+            Congressos Nacionais e muito mais. Para conhecer mais projetos como
+            esses, <a href="acessar-projetos/extensao-projetos.html">acesse</a>.
+          </p>
+        </div>
+        <div class="imagens-1">
+          <a href="detalhes-projetos/esferas.html"
+            ><img
+              class="img-projeto"
+              id="um"
+              src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/acidocinamico.jpg"
+              alt=""
+          /></a>
+          <a href=""
+            ><img class="img-projeto" id="dois" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/3.png" alt=""
+          /></a>
+        </div>
+        <div class="imagens-2">
+          <a href=""
+            ><img class="img-projeto" id="tres" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/HIV.png" alt=""
+          /></a>
+          <a href=""
+            ><img
+              class="img-projeto"
+              id="quatro"
+              src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/verdeHomem.jpeg"
+              alt=""
+          /></a>
+        </div>
+      </div>
+      
+    </section>
+    <div class="fundo-fotos">
+      <section class="secao-fotos">
+        <h1 class="h1-fotos">Fotos</h1>
+        <div class="area">
+          <div class="topico">
+            <a href=""
+              ><img width="400px" src="/img/fotos/evento-científico.jpg" alt=""
+            /></a>
+            <p class="p-fotos">Empreendeweek 2024</p>
+          </div>
+          <div class="topico">
+            <a href=""
+              ><img
+                width="400px"
+                src="/img/fotos/close-up-scientist-holding-petri-dish.jpg"
+                alt=""
+            /></a>
+  
+            <p class="p-fotos">Bioativos</p>
+          </div>
+          <div class="topico">
+            <a href=""
+              ><img
+                width="400px"
+                src="/img/fotos/woman-working-laborator (1).jpg"
+                alt=""
+            /></a>
+            <p class="p-fotos">Laboratório</p>
+          </div>
+        </div>
+      </section>
+    </div>
 
     </header>
     

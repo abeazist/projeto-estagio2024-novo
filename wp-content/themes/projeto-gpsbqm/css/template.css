@@ -90,7 +90,7 @@
 
 
 .fundo {
-    background-image: url(/wp-content/themes/projeto-gpsbqm/imagens/6081254.jpg);
+    background-image: url('http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/6081254.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -133,4 +133,265 @@ section {
 
 #vermais:hover {
     background-color: #2e4dda;
+}
+
+
+#projetos{
+    background-color:#07263E; 
+    
+}
+.titulo-projeto{
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    
+}
+
+.img-projeto{
+    width: 200px;
+    border-radius: 100%;
+    transition: transform 0.5s;
+    transform: translateX(0) scale(1);
+}
+
+
+.imagens-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.imagens-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.img-projeto:hover{
+    transition: transform 0.5s;
+    transform: translateX(0) scale(1.3);
+}
+
+
+/* EQUIPE */
+
+
+body{
+    background-color: var(--cor2); 
+    /* arrumar a imagem, quero q o fundo fique verde mas pra isso, a img precisa ser recortada */
+}
+
+h3{
+    font-size: small;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+h2,h3{
+    justify-content: center;
+    align-items: center;
+}
+#equipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh ;
+}
+
+.box-pessoas{
+    
+    background-color: var(--cor3);
+    width: 300px;
+    height: 450px;
+    
+    
+}
+
+
+.container-equipe {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os cards */
+    justify-content: center;
+    flex-wrap: wrap; /* Permite quebrar a linha em telas menores */
+  }
+  
+  
+  
+
+/*  FOTOS */
+
+
+
+.secao-fotos{
+    /* background-color: #07263E; */
+    background-image: url(/img/fotos/img-fundo-fotos.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.syne {
+    font-family: "Syne", serif;
+    font-optical-sizing: auto;
+}
+
+.area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    flex-wrap: wrap; /* Garante que os itens "quebrem linha" se necessário */
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 30px; /* Espaçamento entre os itens */
+}
+
+.h1-fotos{
+    padding-top: 30px;
+    color: var(--cor3);
+    font-size: 4rem; /* Para um título ainda maior */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Syne", serif;
+}
+
+.topico {
+    display: flex;
+    flex-direction: column; /* Coloca o conteúdo interno (imagem e texto) em coluna */
+    align-items: center; /* Centraliza o conteúdo dentro de cada .topico */
+    text-align: center; /* Centraliza o texto */
+}
+
+.p-fotos {
+    background-color: var(--cor5);
+    color: var(--cor3);
+    font-family: "Syne", serif;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: medium;
+    width: 200px;
+    text-align: center;
+}
+
+.imgfooter{
+    width: 70px; 
+    height: 60px;
+  }
+
+.img-equipe{
+    transition: transform 0.5s;
+    transform: translateX(0) scale(0.9);
+}
+
+.img-equipe:hover{
+    transition: transform 0.5s;
+    transform: translateX(0) scale(1.0);
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 40px 20px;
+    height: 120px;
+    background-color: #252A36; 
+    color: white;
+    font-family: 'Source Sans 3';
+    
+  }
+  
+ 
+  .footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+ 
+  .footer-right {
+    display: flex;
+    gap: 15px; 
+  }
+  
+  /* Estilo dos ícones */
+  
+
+
+@media (max-width: 800px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .menu ul {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        margin-right: 2px;
+    }
+
+    .menu li a {
+        font-size: 14px;
+    }
+
+    .buttonheader {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .logotipo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    section {
+        padding-top: 60px;
+    }
+
+    .titulo {
+        font-size: 2em;
+    }
+
+    #textinho-introducao {
+        font-size: 1em;
+    }
+
+    #vermais {
+        padding: 10px 30px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1.5em;
+    }
+
+    #textinho-introducao {
+        font-size: 0.9em;
+    }
+
+    #vermais {
+        padding: 8px 20px;
+        font-size: 0.9em;
+    }
 }
