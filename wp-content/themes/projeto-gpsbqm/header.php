@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grupo de Pesquisa UTFPR-CM</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <?php wp_head(); ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" type="text/css" href="wp-content/themes/teste/style.css">
