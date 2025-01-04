@@ -92,15 +92,102 @@
           /></a>
         </div>
       </div>
-      
     </section>
+
+    <div class="equipe">
+    <section id="equipe">
+    <div class="container-equipe">
+    <div class="box-pessoas">
+      <img class="foto-perfil" width="100px" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/rafaelle-foto.png" alt="Foto de Rafaelle Romero">
+      <h2>Rafaelle Romero</h2>
+      <p class="descricao">Docente de Engenharia Química UTFPR</p>
+      <div class="social-links">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="box-pessoas">
+      <img class="foto-perfil" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/rafaelle-foto.png" alt="Foto de Adriano Lopes">
+      <h2>Adriano Lopes</h2>
+      <p class="descricao">Docente de Engenharia Química UTFPR</p>
+      <div class="social-links">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="box-pessoas">
+      <img class="foto-perfil" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/rafaelle-foto.png" alt="Foto de Patrick Aoyage">
+      <h2>Patrick Aoyage</h2>
+      <p class="descricao">Estudante de Engenharia UTFPR</p>
+      <div class="social-links">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="box-pessoas">
+      <img class="foto-perfil" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/rafaelle-foto.png" alt="Foto de Giovana Fernanda">
+      <h2>Giovana Fernanda</h2>
+      <p class="descricao">Estudante Técnico em Informática para Internet UTFPR</p>
+      <div class="social-links">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="box-pessoas">
+      <img class="foto-perfil" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/rafaelle-foto.png" alt="Foto de Beatriz Oliveira">
+      <h2>Beatriz Oliveira</h2>
+      <p class="descricao">Estudante Técnico em Informática para Internet UTFPR</p>
+      <div class="social-links">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="box-pessoas">
+      <img class="foto-perfil" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/rafaelle-foto.png" alt="Foto de Beatriz Oliveira">
+      <h2>Beatriz Oliveira</h2>
+      <p class="descricao">Estudante Técnico em Informática para Internet UTFPR</p>
+      <div class="social-links">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="box-pessoas">
+      <img class="foto-perfil" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/rafaelle-foto.png" alt="Foto de Beatriz Oliveira">
+      <h2>Beatriz Oliveira</h2>
+      <p class="descricao">Estudante Técnico em Informática para Internet UTFPR</p>
+      <div class="social-links">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="box-pessoas">
+      <img class="foto-perfil" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/rafaelle-foto.png" alt="Foto de Beatriz Oliveira">
+      <h2>Beatriz Oliveira</h2>
+      <p class="descricao">Estudante Técnico em Informática para Internet UTFPR</p>
+      <div class="social-links">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+    </section>
+    </div>
+
     <div class="fundo-fotos">
       <section class="secao-fotos">
         <h1 class="h1-fotos">Fotos</h1>
         <div class="area">
           <div class="topico">
             <a href=""
-              ><img width="400px" src="/img/fotos/evento-científico.jpg" alt=""
+              ><img width="400px" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/5845210.jpg" alt=""
             /></a>
             <p class="p-fotos">Empreendeweek 2024</p>
           </div>
@@ -108,7 +195,7 @@
             <a href=""
               ><img
                 width="400px"
-                src="/img/fotos/close-up-scientist-holding-petri-dish.jpg"
+                src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/5845210.jpg"
                 alt=""
             /></a>
   
@@ -118,15 +205,15 @@
             <a href=""
               ><img
                 width="400px"
-                src="/img/fotos/woman-working-laborator (1).jpg"
+                src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/5845210.jpg"
                 alt=""
             /></a>
             <p class="p-fotos">Laboratório</p>
           </div>
         </div>
       </section>
+      
     </div>
-
     </header>
     
     
