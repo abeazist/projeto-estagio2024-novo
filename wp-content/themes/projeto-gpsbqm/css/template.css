@@ -191,7 +191,7 @@ section {
   }
   
   #equipe {
-    padding: 20px;
+    padding: 50px;
     background-color: #252A36;
   }
   
@@ -201,7 +201,7 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #252A36;
     margin: 0;
     padding: 0;
   }
@@ -242,7 +242,7 @@ section {
   }
   
   .social-links a:hover {
-    color: #ff4500;
+    color: #120555;
   }
 
   
@@ -253,7 +253,7 @@ section {
 
 .secao-fotos{
     /* background-color: #07263E; */
-    background-image: url(/img/fotos/img-fundo-fotos.jpg);
+    background-image: url('http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/img-fundo2.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100vh;

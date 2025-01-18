@@ -97,13 +97,14 @@
 
     <div class="equipe">
     <section id="equipe">
+      <h1 class="titulo">Equipe</h1>
     <div class="container-equipe">
     <div class="box-pessoas">
       <img class="foto-perfil" width="100px" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/rafaelle-foto.png" alt="Foto de Rafaelle Romero">
       <h2>Rafaelle Romero</h2>
       <p class="descricao">Docente de Engenharia Química UTFPR</p>
       <div class="social-links">
-        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/rafaabonzanini?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa fa-facebook"></i></a>
         <a href="#"><i class="fa fa-twitter"></i></a>
         <a href="#"><i class="fa fa-instagram"></i></a>
       </div>
@@ -147,37 +148,9 @@
         <a href="#"><i class="fa fa-twitter"></i></a>
         <a href="#"><i class="fa fa-instagram"></i></a>
       </div>
+      
     </div>
-    <div class="box-pessoas">
-      <img class="foto-perfil" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/rafaelle-foto.png" alt="Foto de Beatriz Oliveira">
-      <h2>Beatriz Oliveira</h2>
-      <p class="descricao">Estudante Técnico em Informática para Internet UTFPR</p>
-      <div class="social-links">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-      </div>
-    </div>
-    <div class="box-pessoas">
-      <img class="foto-perfil" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/rafaelle-foto.png" alt="Foto de Beatriz Oliveira">
-      <h2>Beatriz Oliveira</h2>
-      <p class="descricao">Estudante Técnico em Informática para Internet UTFPR</p>
-      <div class="social-links">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-      </div>
-    </div>
-    <div class="box-pessoas">
-      <img class="foto-perfil" src="http://localhost/projeto-estagio2024-novo/wp-content/uploads/2025/01/rafaelle-foto.png" alt="Foto de Beatriz Oliveira">
-      <h2>Beatriz Oliveira</h2>
-      <p class="descricao">Estudante Técnico em Informática para Internet UTFPR</p>
-      <div class="social-links">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-      </div>
-    </div>
+    
   </div>
     </section>
     </div>
