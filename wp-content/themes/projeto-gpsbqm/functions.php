@@ -1,3 +1,6 @@
+
+
+<!-- Carregando folha de estilo -->
 <?php
 
 function load_scripts(){
@@ -5,3 +8,11 @@ function load_scripts(){
 }
 
 add_action('wp_enqueue_scripts', 'load_scripts');
+
+// REGISTRANDO OS MENUS
+
+register_nav_menus(
+    array(
+        'my_main_menu' => 'Main Menu'
+    )
+    );
