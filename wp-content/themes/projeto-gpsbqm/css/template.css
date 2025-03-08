@@ -337,6 +337,64 @@ section {
   }
   
   /* Estilo dos ícones */
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor12);
+    color: var(--preto);
+    text-align: center;
+}
+
+header {
+    background-color: var(--verdeAgua);
+    color: var(--branco);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 50px auto;
+    background: var(--branco);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--cinzaClaro);
+}
+
+.logo-container {
+    margin-top: 20px;
+}
+
+.logo-container img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.descricao {
+    margin-top: 20px;
+    font-size: 18px;
+    color: var(--cor1);
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: var(--verdeAgua);
+    color: var(--branco);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao:hover {
+    background: #037d58;
+}
   
 
 
